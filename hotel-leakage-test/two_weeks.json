@@ -1,0 +1,4862 @@
+[
+ {
+  "date_in": "2026-10-01",
+  "date_out": "2026-10-02",
+  "lowestAvailabilities": {
+   "22742": 0,
+   "22743": 0,
+   "22744": 0,
+   "22745": 0,
+   "22746": 0,
+   "22747": 0,
+   "22748": 0
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": false,
+    "price": 36500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": false,
+    "price": 31500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   }
+  ],
+  "lowestPrices": {
+   "136151": 32000,
+   "136153": 40000,
+   "136155": 40000,
+   "136157": 40000,
+   "136159": 46000,
+   "136161": 60000,
+   "136162": 110000,
+   "136191": 28800,
+   "136193": 36000,
+   "136195": 36000,
+   "136197": 36000,
+   "136199": 41400,
+   "136201": 54000,
+   "136202": 99000,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 270000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-02",
+  "date_out": "2026-10-03",
+  "lowestAvailabilities": {
+   "22742": 26,
+   "22743": 2,
+   "22744": 2,
+   "22745": 18,
+   "22746": 7,
+   "22747": 2,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 38000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 34200,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-03",
+  "date_out": "2026-10-04",
+  "lowestAvailabilities": {
+   "22742": 18,
+   "22743": 21,
+   "22744": 0,
+   "22745": 15,
+   "22746": 7,
+   "22747": 1,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "SUBSTITUTION_MIN_STAY",
+     "SUBSTITUTION_MIN_STAY"
+    ]
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 40000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 36000,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-04",
+  "date_out": "2026-10-05",
+  "lowestAvailabilities": {
+   "22742": 30,
+   "22743": 30,
+   "22744": 7,
+   "22745": 36,
+   "22746": 9,
+   "22747": 2,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 38000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 34200,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-05",
+  "date_out": "2026-10-06",
+  "lowestAvailabilities": {
+   "22742": 25,
+   "22743": 30,
+   "22744": 8,
+   "22745": 36,
+   "22746": 10,
+   "22747": 2,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 38000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 34200,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-06",
+  "date_out": "2026-10-07",
+  "lowestAvailabilities": {
+   "22742": 27,
+   "22743": 30,
+   "22744": 6,
+   "22745": 20,
+   "22746": 9,
+   "22747": 2,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 38000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 34200,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-07",
+  "date_out": "2026-10-08",
+  "lowestAvailabilities": {
+   "22742": 19,
+   "22743": 0,
+   "22744": 0,
+   "22745": 8,
+   "22746": 8,
+   "22747": 2,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 40000,
+   "136155": 40000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 36000,
+   "136195": 36000,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-08",
+  "date_out": "2026-10-09",
+  "lowestAvailabilities": {
+   "22742": 27,
+   "22743": 28,
+   "22744": 7,
+   "22745": 36,
+   "22746": 9,
+   "22747": 2,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 38000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 34200,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-09",
+  "date_out": "2026-10-10",
+  "lowestAvailabilities": {
+   "22742": 31,
+   "22743": 27,
+   "22744": 8,
+   "22745": 35,
+   "22746": 9,
+   "22747": 1,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 38000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 34200,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-10",
+  "date_out": "2026-10-11",
+  "lowestAvailabilities": {
+   "22742": 32,
+   "22743": 27,
+   "22744": 7,
+   "22745": 35,
+   "22746": 10,
+   "22747": 1,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 30400,
+   "136153": 38000,
+   "136155": 38000,
+   "136157": 38000,
+   "136159": 41800,
+   "136161": 57000,
+   "136162": 104500,
+   "136191": 27360,
+   "136193": 34200,
+   "136195": 34200,
+   "136197": 34200,
+   "136199": 37620,
+   "136201": 51300,
+   "136202": 94050,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-11",
+  "date_out": "2026-10-12",
+  "lowestAvailabilities": {
+   "22742": 32,
+   "22743": 30,
+   "22744": 8,
+   "22745": 36,
+   "22746": 10,
+   "22747": 2,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 36100,
+   "136153": 43700,
+   "136155": 43700,
+   "136157": 43700,
+   "136159": 47500,
+   "136161": 64600,
+   "136162": 112100,
+   "136191": 32490,
+   "136193": 39330,
+   "136195": 39330,
+   "136197": 39330,
+   "136199": 42750,
+   "136201": 58140,
+   "136202": 100890,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-12",
+  "date_out": "2026-10-13",
+  "lowestAvailabilities": {
+   "22742": 25,
+   "22743": 22,
+   "22744": 7,
+   "22745": 34,
+   "22746": 8,
+   "22747": 1,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": true,
+    "price": 40500,
+    "reasons": []
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": true,
+    "price": 36500,
+    "reasons": []
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": true,
+    "price": 31500,
+    "reasons": []
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": true,
+    "price": 46500,
+    "reasons": []
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 36100,
+   "136153": 43700,
+   "136155": 43700,
+   "136157": 43700,
+   "136159": 47500,
+   "136161": 64600,
+   "136162": 112100,
+   "136191": 32490,
+   "136193": 39330,
+   "136195": 39330,
+   "136197": 39330,
+   "136199": 42750,
+   "136201": 58140,
+   "136202": 100890,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-13",
+  "date_out": "2026-10-14",
+  "lowestAvailabilities": {
+   "22742": 3,
+   "22743": 4,
+   "22744": 2,
+   "22745": 21,
+   "22746": 3,
+   "22747": 1,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": false,
+    "price": 36500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": false,
+    "price": 31500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   }
+  ],
+  "lowestPrices": {
+   "136151": 66500,
+   "136153": 76000,
+   "136155": 76000,
+   "136157": 76000,
+   "136159": 79800,
+   "136161": 90250,
+   "136162": 137750,
+   "136191": 59850,
+   "136193": 68400,
+   "136195": 68400,
+   "136197": 68400,
+   "136199": 71820,
+   "136201": 81225,
+   "136202": 123975,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ },
+ {
+  "date_in": "2026-10-14",
+  "date_out": "2026-10-15",
+  "lowestAvailabilities": {
+   "22742": 1,
+   "22743": 0,
+   "22744": 0,
+   "22745": 19,
+   "22746": 0,
+   "22747": 1,
+   "22748": 2
+  },
+  "rates": [
+   {
+    "id": 136191,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 161103,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136157,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 150682,
+    "group": 22743,
+    "name": "Standard Twin Room - Green Velo offer ",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173378,
+    "group": 22743,
+    "name": "Standard Twin Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136155,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 136162,
+    "group": 22748,
+    "name": "Executive Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140655,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150683,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Green Velo offer ",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136153,
+    "group": 22743,
+    "name": "Standard Twin Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140661,
+    "group": 22742,
+    "name": "Standard Single Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136151,
+    "group": 22742,
+    "name": "Standard Single Room - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136202,
+    "group": 22748,
+    "name": "Executive Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140657,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 171901,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Green Velo offer",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140659,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 173379,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151904,
+    "group": 22742,
+    "name": "Standard Single Room - Raj Cave",
+    "bookable": false,
+    "price": 36500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136199,
+    "group": 22746,
+    "name": "Superior Double Room  - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 173377,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - Tropical Reset",
+    "bookable": false,
+    "price": 56000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 140660,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 150681,
+    "group": 22742,
+    "name": "Standard Single Room - Green Velo offer ",
+    "bookable": false,
+    "price": 31500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 151880,
+    "group": 22745,
+    "name": "Standard Room with Sofa - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136197,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 140656,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST - FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136161,
+    "group": 22747,
+    "name": "Junior Suite Apartment - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 173376,
+    "group": 22742,
+    "name": "Standard Single Room - Tropical Reset",
+    "bookable": false,
+    "price": 40500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136195,
+    "group": 22744,
+    "name": "Standard Double King-Size Bed Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 151903,
+    "group": 22743,
+    "name": "Standard Twin Room - Raj Cave",
+    "bookable": false,
+    "price": 46500,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136193,
+    "group": 22743,
+    "name": "Standard Twin Room - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   },
+   {
+    "id": 140658,
+    "group": 22745,
+    "name": "Standard Double Room with Sofa Bed - NON REFUNDABLE OFFER -  FAIR RATE",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "STOP_SELL"
+    ]
+   },
+   {
+    "id": 136201,
+    "group": 22747,
+    "name": "Junior Suite Apartment - NON REFUNDABLE OFFER WITH BREAKFAST",
+    "bookable": true,
+    "price": 50000,
+    "reasons": []
+   },
+   {
+    "id": 136159,
+    "group": 22746,
+    "name": "Superior Double Room  - FLEXIBLE RATE WITH BREAKFAST",
+    "bookable": false,
+    "price": 50000,
+    "reasons": [
+     "AVAILABILITY",
+     "AVAILABILITY"
+    ]
+   }
+  ],
+  "lowestPrices": {
+   "136151": 66500,
+   "136153": 80000,
+   "136155": 80000,
+   "136157": 76000,
+   "136159": 84000,
+   "136161": 90250,
+   "136162": 137750,
+   "136191": 59850,
+   "136193": 72000,
+   "136195": 72000,
+   "136197": 68400,
+   "136199": 75600,
+   "136201": 81225,
+   "136202": 123975,
+   "140655": 400000,
+   "140656": 350000,
+   "140657": 254000,
+   "140658": 260000,
+   "140659": 250000,
+   "140660": 250000,
+   "140661": 230000,
+   "150681": 31500,
+   "150682": 40500,
+   "150683": 40500,
+   "151880": 46500,
+   "151903": 46500,
+   "151904": 36500,
+   "161103": 46500,
+   "171901": 40500,
+   "173376": 40500,
+   "173377": 56000,
+   "173378": 56000,
+   "173379": 56000
+  }
+ }
+]

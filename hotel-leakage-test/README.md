@@ -86,6 +86,8 @@ a headless browser (script 01) receives the full response.
 - `01_capture.py`: loads the page in headless Chromium, records every request and
   response into `capture.json`, saves `page.html` and `page.png`.
 - `02_confirm_plain_http.py`: replays the page's three-call sequence with `requests`.
+- `03_two_weeks.py`: one page load per night for 14 nights, records `lowestAvailabilities` into `two_weeks.json`.
+- `04_build_report.py` + `report_template.html`: builds `report.html`, the HTML report with the two-week board.
 
 Run with `pip install playwright requests` and a Chromium available to Playwright.
-Raw captures are not committed because they contain session identifiers.
+Raw single-page captures are not committed because they contain session identifiers. `two_weeks.json` holds only the per-night availability counts and rate flags.

@@ -1,0 +1,202 @@
+<title>Grand Hotel Kielce Availability Leak</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column (68ch) for prose; the availability board and chart break out to 960px. */
+:root{
+  --bg:#f7f8f7; --surface:#ffffff; --fg:#151a1e; --fg-2:#4d565e; --fg-3:#7c858c; --line:#dfe4e6;
+  --accent:#0f5f6b; --accent-ink:#ffffff; --cell-zero:#ececea;
+  --crit:#d03b3b; --serious:#ec835a; --good:#0ca30c; --warn:#fab219;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#15191b; --surface:#1d2225; --fg:#eef1f2; --fg-2:#b6bec4; --fg-3:#8a939a; --line:#333b40;
+  --accent:#5fc3cf; --accent-ink:#0e1517; --cell-zero:#2a3134; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#15191b; --surface:#1d2225; --fg:#eef1f2; --fg-2:#b6bec4; --fg-3:#8a939a; --line:#333b40;
+  --accent:#5fc3cf; --accent-ink:#0e1517; --cell-zero:#2a3134; color-scheme:dark }
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55;padding-block:0 64px;padding-inline:16px;margin:0}
+.wrap{max-width:960px;margin:0 auto}
+.col{max-width:68ch}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(34px,5vw,50px);letter-spacing:-.01em}
+h2{font-size:26px;margin-top:56px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:19px;margin-top:26px}
+p{margin:12px 0}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);font-weight:500}
+header{padding-block:40px 8px}
+header .meta{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14px;color:var(--fg-2);margin-top:14px}
+.verdict{margin-top:26px;border-left:4px solid var(--crit);padding:14px 18px;background:var(--surface);border-radius:0 8px 8px 0}
+.verdict b{font-family:var(--display);font-size:21px;font-weight:600;display:block;margin-bottom:4px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:22px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0}
+.tile .n{font-family:var(--display);font-size:32px;font-weight:600;line-height:1.05;font-variant-numeric:tabular-nums}
+.tile .l{font-size:13px;color:var(--fg-2);margin-top:4px}
+.board{overflow-x:auto;margin-top:16px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table.heat{border-collapse:separate;border-spacing:2px;width:100%;min-width:760px;font-size:14px;font-variant-numeric:tabular-nums}
+table.heat th{font-weight:500;color:var(--fg-2);text-align:center;padding:10px 6px 8px;font-size:12.5px;line-height:1.25;vertical-align:bottom}
+table.heat th .peak{display:block;color:var(--fg-3);font-weight:400;font-size:11px;margin-top:2px}
+table.heat th.date,table.heat td.date{text-align:left;padding-left:12px;white-space:nowrap}
+table.heat td{text-align:center;padding:9px 6px;border-radius:4px;font-weight:500}
+table.heat td.date{color:var(--fg);font-weight:400;background:none}
+table.heat td.date b{font-weight:600;display:inline-block;width:3.6ch;margin-right:6px}
+table.heat tr.wkend td.date{color:var(--accent)}
+table.heat td.tot,table.heat th.tot{background:none;color:var(--fg);font-weight:600}
+table.heat th.tot{color:var(--fg-2);font-weight:500}
+.legend{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--fg-2);margin-top:10px;flex-wrap:wrap}
+.legend .sw{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:middle}
+.legend .ramp{display:inline-block;width:120px;height:12px;border-radius:3px;background:linear-gradient(90deg,#cde2fb,#3987e5,#0d366b);vertical-align:middle}
+figure{margin:18px 0 0}
+figcaption{font-size:13px;color:var(--fg-2);margin-top:8px}
+.chart{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 8px 4px;position:relative}
+svg{width:100%;height:auto;display:block;font-family:var(--body)}
+svg .grid{stroke:var(--line);stroke-width:1}
+svg .cap{stroke:var(--fg-3);stroke-width:1;stroke-dasharray:4 4}
+svg .ax{fill:var(--fg-3);font-size:11px}
+svg .cap-l{fill:var(--fg-2)}
+svg .dl{fill:var(--fg);font-size:12px;font-weight:500}
+svg .bar rect:not(.hit){fill:#2a78d6}
+svg .bar .hit{fill:transparent;cursor:default}
+svg .bar:hover rect:not(.hit){fill:#1c5cab}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font-size:12.5px;padding:6px 9px;border-radius:5px;white-space:nowrap;transform:translate(-50%,-115%);opacity:0;transition:opacity .12s}
+.tip.on{opacity:1}
+ol.seq{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:8px}
+ol.seq li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:9px 12px;min-width:0}
+ol.seq code{font-family:var(--mono);font-size:13px;color:var(--accent);white-space:nowrap}
+ol.seq span{font-size:14px;color:var(--fg-2)}
+.finding{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.finding h3{margin-top:0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.pill{font-family:var(--body);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:3px 9px;border-radius:999px;color:#fff;display:inline-flex;gap:5px;align-items:center}
+.pill.crit{background:var(--crit)} .pill.serious{background:var(--serious);color:#1a0d05} .pill.low{background:var(--fg-3)} .pill.ok{background:var(--good)}
+.finding ul{margin:8px 0 0;padding-left:20px;color:var(--fg-2)}
+.finding li{margin:4px 0}
+pre{font-family:var(--mono);font-size:12.5px;line-height:1.5;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px 14px;overflow-x:auto;margin:10px 0 0;color:var(--fg)}
+pre .k{color:var(--accent)} pre .hl{background:rgba(208,59,59,.14);border-radius:3px;padding:0 2px}
+.rec{counter-reset:r;padding:0;margin:14px 0 0;list-style:none;display:grid;gap:10px}
+.rec li{counter-increment:r;display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}
+.rec li::before{content:counter(r);font-family:var(--display);font-size:20px;font-weight:600;color:var(--accent);line-height:1.2}
+.note{font-size:14px;color:var(--fg-2);border-top:1px solid var(--line);margin-top:48px;padding-top:14px}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.tip{transition:none}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Information-leakage check · booking engine</div>
+  <h1>Grand Hotel Kielce Availability Leak</h1>
+  <div class="meta">
+    <span>Target: reservations.grandhotelkielce.pl (Bookassist engine, hotel 4014 / guide 823)</span>
+    <span>Tested: 30 September 2026</span>
+    <span>Window: nights of 1 to 14 October 2026</span>
+  </div>
+  <div class="verdict">
+    <b>Confirmed: any visitor can read how many rooms of each type are left.</b>
+    The page's own background call to <code style="font-family:var(--mono);font-size:14px">/api/engineResult</code> returns a field named <code style="font-family:var(--mono);font-size:14px">lowestAvailabilities</code> with a live count per room group. The interface never shows these numbers, but they are in the JSON for every search. Combined with the total room count that <code style="font-family:var(--mono);font-size:14px">/api/engineCheck</code> also returns, this gives a night-by-night occupancy estimate for the hotel.
+  </div>
+  <div class="tiles">
+    <div class="tile"><div class="n">14 / 14</div><div class="l">nights returned room counts</div></div>
+    <div class="tile"><div class="n">7</div><div class="l">room groups exposed per night</div></div>
+    <div class="tile"><div class="n">122</div><div class="l">total rooms disclosed by engineCheck</div></div>
+    <div class="tile"><div class="n">{{PEAK_SUM}}</div><div class="l">sum of peak per-group counts, matching capacity</div></div>
+  </div>
+</header>
+
+<h2>Two-week availability board, as leaked</h2>
+<div class="col">
+<p>Each cell is the value the engine returned for that room group on a one-night, one-adult search for that night. Nothing here was inferred: the numbers were copied from the JSON. The "Open" column sums the groups, and "Implied occupancy" is 1 minus that sum over the 122 rooms the engine reports, so it is an approximation. Among nights with any inventory open, the tightest is <b>{{LOW_DATE}}</b> with {{LOW_N}} rooms open, and the emptiest is <b>{{HIGH_DATE}}</b> with {{HIGH_N}} open. The first night, 1 October, returned zero for every group; that is the day after the test and most likely reflects a booking cut-off rather than a full house.</p>
+</div>
+<div class="board">{{TABLE}}</div>
+<div class="legend"><span class="sw" style="background:var(--cell-zero)"></span> 0 open <span class="ramp"></span> 1 open to peak · weekend nights are marked in the accent colour</div>
+
+<figure>
+  <div class="chart" id="chart">{{SVG}}<div class="tip" id="tip"></div></div>
+  <figcaption>Rooms open per night, all types summed, against the 122-room capacity the engine discloses. Hover a bar for the exact figure.</figcaption>
+</figure>
+
+<h2>What the page does under the hood</h2>
+<div class="col"><p>The site is a Next.js front end over the Bookassist engine. Opening the "choose rooms" page fires this sequence. Everything in bold below is readable in any browser's network tab.</p></div>
+<ol class="seq">
+  <li><code>GET /__ENV.js</code><span>Front-end configuration: CDN hosts, Microsoft Clarity id, Google Maps API key.</span></li>
+  <li><code>GET /api/engineCheck</code><span><b>Hotel configuration</b>: total rooms, booking mailboxes, 80 feature flags, backend session ids and egress IP.</span></li>
+  <li><code>GET /api/engineResult</code><span><b>Rates for the searched dates</b>, plus lowestAvailabilities, per-day stop-sell flags, rack rates and discount rules.</span></li>
+  <li><code>GET /api/roomStuff, /api/roomConfig</code><span>Per-rate descriptions and occupancy rules, one call per rate shown.</span></li>
+  <li><code>POST /api/spoor</code><span>Bookassist analytics: visitor IP, user agent, ad-block flag, fingerprint id and the full cookie string.</span></li>
+  <li><code>GET webapi-prod.bookassist.com/…/i18n/…</code><span>Translation bundles, fetched directly from the vendor.</span></li>
+</ol>
+
+<h2>Findings</h2>
+
+<div class="finding">
+  <h3><span class="pill crit">● Critical</span> Remaining rooms per type are exposed on every search</h3>
+  <p>Response of <code style="font-family:var(--mono);font-size:14px">/api/engineResult</code>, top level. The keys are room-group ids that the same response maps to names in <code style="font-family:var(--mono);font-size:14px">roomPrices[]</code>. The values change from night to night and sum, at their peaks, to the hotel's capacity, which shows they are live inventory rather than a static setting.</p>
+<pre>"<span class="k">lowestAvailabilities</span>": <span class="hl">{"22742": 31, "22743": 27, "22744": 8, "22745": 35, "22746": 9, "22747": 1, "22748": 2}</span>   <span style="color:var(--fg-3)">// night of 9 Oct</span></pre>
+  <ul>
+    <li>Impact: competitors, rate-shopping tools and online travel agents can build an occupancy calendar for the hotel with one request per night.</li>
+    <li>Also in the same response: <code style="font-family:var(--mono);font-size:13px">notBookableReasons[].cause = "STOP_SELL"</code> with the date, and per-day <code style="font-family:var(--mono);font-size:13px">stopSale</code>, <code style="font-family:var(--mono);font-size:13px">closeForArrival</code>, <code style="font-family:var(--mono);font-size:13px">minNights</code>, <code style="font-family:var(--mono);font-size:13px">rackRef</code> (rack rate) and <code style="font-family:var(--mono);font-size:13px">dynamicDiscountId</code>.</li>
+  </ul>
+</div>
+
+<div class="finding">
+  <h3><span class="pill serious">● Serious</span> Total capacity, booking mailbox and internal configuration are exposed</h3>
+  <p>Response of <code style="font-family:var(--mono);font-size:14px">/api/engineCheck</code>, object <code style="font-family:var(--mono);font-size:14px">engine.hotel</code> and <code style="font-family:var(--mono);font-size:14px">engine.hotelOptions</code>.</p>
+<pre>"<span class="k">hotel</span>": { "<span class="hl">numberOfRooms": 122</span>, "numberOfSuites": 0, "<span class="hl">bookingEmail": "hotel@grandhotelkielce.pl"</span>, "voucherEmail": "hotel@grandhotelkielce.pl",
+           "minHoursAhead": 0, "maxMonthBookAhead": 36, "maxStayNights": 365, "bookitLevel": 2, … }
+"<span class="k">hotelOptions</span>": { "maxRoomsPerBooking": -1, "useDynamicDiscount": …, "canAmendBooking": …, "tripteaseToken": "", … }   <span style="color:var(--fg-3)">// ~80 flags</span></pre>
+  <ul>
+    <li>The room total is what turns per-type counts into an occupancy percentage.</li>
+    <li>The response also carries an empty customer template whose field names include <code style="font-family:var(--mono);font-size:13px">password</code>, which suggests the same object is reused for logged-in customers server side.</li>
+  </ul>
+</div>
+
+<div class="finding">
+  <h3><span class="pill low">● Low</span> Backend details leak: server IP, session ids, a localhost origin, an API key</h3>
+  <ul>
+    <li><code style="font-family:var(--mono);font-size:13px">engine.identity.ip</code> and <code style="font-family:var(--mono);font-size:13px">analytics.clientIP</code> report the Next.js server's own egress address (user agent "node"), not the visitor's, together with <code style="font-family:var(--mono);font-size:13px">sessionId</code>, <code style="font-family:var(--mono);font-size:13px">baSessionId</code>, <code style="font-family:var(--mono);font-size:13px">uuid</code> and a gzip-encoded <code style="font-family:var(--mono);font-size:13px">hash</code> blob.</li>
+    <li>The first redirect sets a cookie <code style="font-family:var(--mono);font-size:13px">bp4014_823</code> whose value begins with <code style="font-family:var(--mono);font-size:13px">https://localhost:3000/</code>, a development origin left in production.</li>
+    <li><code style="font-family:var(--mono);font-size:13px">/__ENV.js</code> publishes the Google Maps browser key. That is acceptable only if the key is restricted by HTTP referrer in Google Cloud Console.</li>
+    <li><code style="font-family:var(--mono);font-size:13px">/api/spoor</code> sends the visitor's full cookie string and a fingerprint id to Bookassist analytics. Check that the privacy notice covers it.</li>
+  </ul>
+</div>
+
+<div class="finding">
+  <h3><span class="pill ok">● Not confirmed</span> Plain HTTP replay without a browser</h3>
+  <p>Replaying the page's own three calls (page, engineCheck, engineResult) with a plain Python HTTP client returned <code style="font-family:var(--mono);font-size:14px">engineResult returned 500</code>, so the API expects something the front end adds. A headless browser receives the full JSON, so this is friction rather than a control. It raises the cost of scraping slightly and does not change the findings above.</p>
+</div>
+
+<h2>What to ask Bookassist to change</h2>
+<div class="col">
+<ol class="rec">
+  <li>Remove <code style="font-family:var(--mono);font-size:14px">lowestAvailabilities</code> from the public response, or reduce it to a boolean or a capped value such as "3+" that the interface actually needs.</li>
+  <li>Strip <code style="font-family:var(--mono);font-size:14px">hotel.numberOfRooms</code>, <code style="font-family:var(--mono);font-size:14px">numberOfSuites</code>, <code style="font-family:var(--mono);font-size:14px">bookingEmail</code> and <code style="font-family:var(--mono);font-size:14px">voucherEmail</code> from <code style="font-family:var(--mono);font-size:14px">engineCheck</code>; the front end does not render them.</li>
+  <li>Replace raw cause codes and per-day revenue-management fields (<code style="font-family:var(--mono);font-size:14px">STOP_SELL</code>, <code style="font-family:var(--mono);font-size:14px">stopSale</code>, <code style="font-family:var(--mono);font-size:14px">closeForArrival</code>, <code style="font-family:var(--mono);font-size:14px">rackRef</code>) with the customer-facing message only.</li>
+  <li>Drop <code style="font-family:var(--mono);font-size:14px">identity.ip</code>, session identifiers and the <code style="font-family:var(--mono);font-size:14px">hash</code> blob from the client payload, and fix the cookie that references localhost:3000.</li>
+  <li>On your side: restrict the Google Maps key to the reservations domain, and review the analytics payload against the privacy notice.</li>
+</ol>
+</div>
+
+<h2>Method and limits</h2>
+<div class="col">
+<p>All observations come from loading the public booking page in a headless Chromium browser and recording the responses it receives, exactly as a visitor's browser would. The two-week board used one page load per night, sequentially, with a two-second pause between loads. No other hotels, no vendor endpoints beyond what the page itself calls, and no booking or payment steps were touched. The numbers are a snapshot from the evening of 30 September 2026 and will have changed since.</p>
+<p>Scripts: <code style="font-family:var(--mono);font-size:14px">01_capture.py</code> (full network capture of one search), <code style="font-family:var(--mono);font-size:14px">02_confirm_plain_http.py</code> (plain-client replay), <code style="font-family:var(--mono);font-size:14px">03_two_weeks.py</code> (the fourteen-night board), <code style="font-family:var(--mono);font-size:14px">04_build_report.py</code> (this page). They live in the repository branch <code style="font-family:var(--mono);font-size:14px">claude/hotel-info-leakage-test-sypq7u</code> under <code style="font-family:var(--mono);font-size:14px">hotel-leakage-test/</code>.</p>
+</div>
+
+<div class="note">Prepared for the owner of grandhotelkielce.pl as input to a vendor request. The availability figures shown are the hotel's own data as served by its booking engine; they are reproduced here to demonstrate the exposure.</div>
+</div>
+
+<script>
+(function(){
+  var chart=document.getElementById('chart'), tip=document.getElementById('tip');
+  if(!chart||!tip) return;
+  chart.querySelectorAll('.hit').forEach(function(h){
+    h.addEventListener('mousemove',function(e){
+      var r=chart.getBoundingClientRect();
+      tip.textContent=h.getAttribute('data-tip');
+      tip.style.left=(e.clientX-r.left)+'px'; tip.style.top=(e.clientY-r.top)+'px';
+      tip.classList.add('on');
+    });
+    h.addEventListener('mouseleave',function(){ tip.classList.remove('on'); });
+  });
+})();
+</script>
